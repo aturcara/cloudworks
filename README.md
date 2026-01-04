@@ -1,9 +1,9 @@
 # Professional Website Design Portfolio
 Welcome to my personal website design portfolio! I specialize in creating stunning and functional websites that not only look great but also deliver exceptional user experiences. Below, you'll find links to some of the websites I've designed, along with reasons why you should consider me for your next web project.
 
- 👉 [Portfolio Website](https://tbx0.github.io/cloudworks/)
+ 👉 [Portfolio Website](https://aturcara.github.io/cloudworks/)
  
-[![image](https://github.com/tbx0/cloudworks/blob/gh-pages/src/img/featured-img.png)](https://tbx0.github.io/cloudworks/)
+[![image](https://github.com/aturcara/cloudworks/blob/gh-pages/src/img/featured-img.png)](https://aturcara.github.io/cloudworks/)
 
 ## Why Hire Me for Your Website Design Needs?
 
@@ -21,4 +21,4 @@ Welcome to my personal website design portfolio! I specialize in creating stunni
 
 Let's collaborate to bring your vision to life! If you're interested in working with me for your next web project or have any inquiries, please don't hesitate to contact me.
 
-[Mail](mailto:meisterhafiz@gmail.com) | [WhatsApp](https://api.whatsapp.com/send?phone=60105481856&text=Web%20Designer%20Wanted)
+[WhatsApp](https://api.whatsapp.com/send?phone=60105481856&text=Web%20Designer%20Wanted)
