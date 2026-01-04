@@ -3,7 +3,7 @@ Welcome to my personal website design portfolio! I specialize in creating stunni
 
  👉 [Portfolio Website](https://aturcara.github.io/cloudworks/)
  
-[![image](https://github.com/aturcara/cloudworks/blob/gh-pages/src/img/featured-img.png)](https://aturcara.github.io/cloudworks/)
+[![image](https://github.com/aturcara/cloudworks/blob/gh-pages/src/img/ogindex.png)](https://aturcara.github.io/cloudworks/)
 
 ## Why Hire Me for Your Website Design Needs?
 
