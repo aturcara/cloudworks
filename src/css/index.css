@@ -56,26 +56,6 @@ body {
   left: 50%;
 }
 
-.favicon-loader {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1001;
-  opacity: 0;
-  animation: .7s linear infinite alternate forwards loaderAnim;
-}
-
-.favicon-loader img {
-  width: 32px; /* Adjust size as needed */
-  height: 32px; /* Adjust size as needed */
-  display: block;
-}
-
-.js .loading .favicon-loader {
-  opacity: 1;
-}
-
 @keyframes loaderAnim {
   to {
     opacity: 1;
