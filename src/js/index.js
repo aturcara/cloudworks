@@ -807,8 +807,24 @@ const imagesLoaded = require("469e3acfa4a2d33e");
         this.unbindEvents();
     };
     LoadingImage.prototype.onerror = function() {
-        this.confirm(false, "onerror");
-        this.unbindEvents();
+        // Check if the original image's src has changed, implying a fallback was attempted
+        if (this.img.currentSrc && this.img.currentSrc !== this.proxyImage.src) {
+            const fallbackImage = new Image();
+            fallbackImage.addEventListener("load", () => {
+                this.confirm(true, "fallback_onload");
+                this.unbindEvents();
+            });
+            fallbackImage.addEventListener("error", () => {
+                // If fallback also fails, confirm original error
+                this.confirm(false, "onerror");
+                this.unbindEvents();
+            });
+            fallbackImage.src = this.img.currentSrc;
+        } else {
+            // No fallback or fallback failed to load, confirm original error
+            this.confirm(false, "onerror");
+            this.unbindEvents();
+        }
     };
     LoadingImage.prototype.unbindEvents = function() {
         this.proxyImage.removeEventListener("load", this);
